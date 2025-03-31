@@ -1,7 +1,7 @@
 function Hero() {
     return (
         <div>
-            <div className="min-h-[calc(100vh-96px)] bg-[url(src/assets/hero.png)] bg-cover bg-center flex flex-col justify-around items-center">
+            <div className="min-h-[calc(100vh-96px)] bg-[url(/assets/hero.png)] bg-cover bg-center flex flex-col justify-around items-center">
                 <div className="grid grid-cols-3">
                     <div className="flex justify-center text-white font-bold col-span-1 relative">
                         <span className="absolute left-1/2 -translate-x-1/2 top-[-15px] text-7xl opacity-25 z-0">
