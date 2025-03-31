@@ -1,20 +1,4 @@
-import { useState } from "react";
-import emailjs from "emailjs-com";
-
 export default function ContactForm() {
-  const [form, setForm] = useState({ nombre: "", email: "", telefono: "", mensaje: "" });
-
-  const handleChange = (e) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    emailjs.send("TU_SERVICE_ID", "TU_TEMPLATE_ID", form, "TU_USER_ID")
-      .then(() => alert("Mensaje enviado con éxito"))
-      .catch(() => alert("Error al enviar el mensaje"));
-  };
-
   return (
     <form action="https://formsubmit.co/wjuice7@gmail.com" method="POST" className="max-w-md mx-auto mt-6 space-y-4">
       <input
