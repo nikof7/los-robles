@@ -4,7 +4,7 @@ import ZoomableImage from "./ZoomableImage";
 const PaymentMethod = () => {
     return (
         <div className="p-6">
-            <SectionTitle title="Métodos de pago" />
+            <SectionTitle title="Formas de pago" />
             <div className="mt-4 flex flex-col gap-1">
                 <p>
                     <span className="font-bold">Financiación directa con el dueño:</span> Sin necesidad de trámites bancarios. En Unidades Indexadas y en un periodo de hasta 6 años.
@@ -16,7 +16,7 @@ const PaymentMethod = () => {
             </div>
                 <p className="pt-6">Consulta los distintos planes en la siguiente tabla <span className="text-sm">(U$S: dólares americanos)</span>.</p>
             <div className="p-6">
-                <ZoomableImage src="/src/assets/table.png" alt="Tabla" />
+                <ZoomableImage src="/table.png" alt="Tabla" />
             </div>
         </div>
     );

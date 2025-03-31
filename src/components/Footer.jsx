@@ -2,7 +2,7 @@ const Footer = () => {
     return (
         <div className="grid grid-cols-2 h-full p-6 bg-linear-to-b from-white to-[#593c1681]">
             <div className="flex justify-center items-center">
-                <img src="/src/assets/logo.png" alt="Logo" className="w-52" />
+                <img src="./logo.png" alt="Logo" className="w-52" />
             </div>
             <div className="flex justify-center items-center">
                 <div className="flex flex-row items-center">

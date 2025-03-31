@@ -15,7 +15,7 @@ const Characteristics = () => {
                 </ul>
             </div>
             <div className="p-6">
-                <ZoomableImage src="/src/assets/lots.png" alt="Mapa del Fraccionamiento" />
+                <ZoomableImage src="/lots.png" alt="Mapa del Fraccionamiento" />
             </div>
         </div>
     );

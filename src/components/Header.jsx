@@ -1,5 +1,4 @@
 import { useState } from "react"
-import logo from "../assets/logo.png"
 import { Link } from 'react-scroll';
 
 
@@ -12,7 +11,7 @@ function Header() {
 
 
             <a href="">
-                <img src={logo} alt="" className="w-52 hover:scale-105 transition-all"/>
+                <img src="./logo.png" alt="" className="w-52 hover:scale-105 transition-all"/>
             </a>
             <ul className="hidden 2xl:flex items-center gap-12 font-semibold text-base">
                 <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer"><Link to="inicio" smooth={true} duration={500}>Inicio</Link></li>
