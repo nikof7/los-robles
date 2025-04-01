@@ -14,7 +14,7 @@ function Hero() {
                     <div className="col-span-2">
                         <h1 className="text-white text-4xl font-bold font-title">TERRENOS DISPONIBLES</h1>
                         <h2 className="text-white text-sm "> ¡Con opciones <span className="italic">flexibles</span> de financiación!</h2>
-                        <Link to="contacto" smooth={true} duration={500}><button className="bg-amber-400 hover:bg-amber-600 text-white font-bold pt-1 pb-1 px-4 rounded mt-3"> CONSULTE AHORA </button></Link>
+                        <Link to="contacto" smooth={true} duration={500} ><button className="bg-amber-400 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded mt-3"> CONSULTE AHORA </button></Link>
                         <p className="text-white flex items-center text-lg mt-3">
                             <i className="bx bxl-whatsapp pr-1"></i>
                             092 964 972
