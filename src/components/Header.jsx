@@ -14,23 +14,23 @@ function Header() {
                 <img src="./logo.png" alt="" className="w-52 hover:scale-105 transition-all"/>
             </a>
             <ul className="hidden 2xl:flex items-center gap-12 font-semibold text-base">
-                <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer"><Link to="inicio" smooth={true} duration={500}>Inicio</Link></li>
-                <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer"><Link to="detalles" smooth={true} duration={500}>Detalles</Link></li>
-                <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer"><Link to="caracteristicas" smooth={true} duration={500}>Características</Link></li>
-                <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer"><Link to="formas-de-pago" smooth={true} duration={500}>Formas de pago</Link></li>
-                <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer"><Link to="ubicacion" smooth={true} duration={500}>Ubicación</Link></li>
-                <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer"><Link to="contacto" smooth={true} duration={500}>Contacto</Link></li>
+                <li className="p-3 hover:bg-[var(--primary-color)] hover:text-white rounded-md transition-all cursor-pointer"><Link to="inicio" smooth={true} duration={500}>Inicio</Link></li>
+                <li className="p-3 hover:bg-[var(--primary-color)] hover:text-white rounded-md transition-all cursor-pointer"><Link to="detalles" smooth={true} duration={500}>Detalles</Link></li>
+                <li className="p-3 hover:bg-[var(--primary-color)] hover:text-white rounded-md transition-all cursor-pointer"><Link to="caracteristicas" smooth={true} duration={500}>Características</Link></li>
+                <li className="p-3 hover:bg-[var(--primary-color)] hover:text-white rounded-md transition-all cursor-pointer"><Link to="formas-de-pago" smooth={true} duration={500}>Formas de pago</Link></li>
+                <li className="p-3 hover:bg-[var(--primary-color)] hover:text-white rounded-md transition-all cursor-pointer"><Link to="ubicacion" smooth={true} duration={500}>Ubicación</Link></li>
+                <li className="p-3 hover:bg-[var(--primary-color)] hover:text-white rounded-md transition-all cursor-pointer"><Link to="contacto" smooth={true} duration={500}>Contacto</Link></li>
             </ul>
             <i className="bx bx-menu 2xl:!hidden block text-5xl cursor-pointer" onClick={()=> setIsMenuOpen(!isMenuOpen)}></i>
 
             <div className={`absolute 2xl:hidden top-17 left-0 w-full bg-white flex flex-col items-center gap-6 font-semibold text-lg transform transition-transform ${isMenuOpen ? "opacity-100" : "opacity-0"}`}
             style={{transition: "transform 0,3s ease, opacity 0,3s ease"}}>
-                <li className="list-none w-full text-center hover:bg-sky-400 hover:text-white transition-all cursor-pointer"><Link to="inicio" smooth={true} duration={500}>Inicio</Link></li>
-                <li className="list-none w-full text-center hover:bg-sky-400 hover:text-white transition-all cursor-pointer"><Link to="detalles" smooth={true} duration={500}>Detalles</Link></li>
-                <li className="list-none w-full text-center hover:bg-sky-400 hover:text-white transition-all cursor-pointer"><Link to="caracteristicas" smooth={true} duration={500}>Características</Link></li>
-                <li className="list-none w-full text-center hover:bg-sky-400 hover:text-white transition-all cursor-pointer"><Link to="formas-de-pago" smooth={true} duration={500}>Formas de pago</Link></li>
-                <li className="list-none w-full text-center hover:bg-sky-400 hover:text-white transition-all cursor-pointer"><Link to="ubicacion" smooth={true} duration={500}>Ubicación</Link></li>
-                <li className="list-none w-full text-center hover:bg-sky-400 hover:text-white transition-all cursor-pointer pb-6"><Link to="contacto" smooth={true} duration={500}>Contacto</Link></li>
+                <li className="list-none w-full text-center hover:bg-[var(--primary-color)] hover:text-white transition-all cursor-pointer"><Link to="inicio" smooth={true} duration={500}>Inicio</Link></li>
+                <li className="list-none w-full text-center hover:bg-[var(--primary-color)] hover:text-white transition-all cursor-pointer"><Link to="detalles" smooth={true} duration={500}>Detalles</Link></li>
+                <li className="list-none w-full text-center hover:bg-[var(--primary-color)] hover:text-white transition-all cursor-pointer"><Link to="caracteristicas" smooth={true} duration={500}>Características</Link></li>
+                <li className="list-none w-full text-center hover:bg-[var(--primary-color)] hover:text-white transition-all cursor-pointer"><Link to="formas-de-pago" smooth={true} duration={500}>Formas de pago</Link></li>
+                <li className="list-none w-full text-center hover:bg-[var(--primary-color)] hover:text-white transition-all cursor-pointer"><Link to="ubicacion" smooth={true} duration={500}>Ubicación</Link></li>
+                <li className="list-none w-full text-center hover:bg-[var(--primary-color)] hover:text-white transition-all cursor-pointer pb-6"><Link to="contacto" smooth={true} duration={500}>Contacto</Link></li>
             </div>
         </header>
   )
