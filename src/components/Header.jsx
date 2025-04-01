@@ -17,7 +17,7 @@ function Header() {
                 <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer"><Link to="inicio" smooth={true} duration={500}>Inicio</Link></li>
                 <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer"><Link to="detalles" smooth={true} duration={500}>Detalles</Link></li>
                 <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer"><Link to="caracteristicas" smooth={true} duration={500}>Características</Link></li>
-                <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer">Formas de <Link to="formas-de-pago" smooth={true} duration={500}>pago</Link></li>
+                <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer"><Link to="formas-de-pago" smooth={true} duration={500}>Formas de pago</Link></li>
                 <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer"><Link to="ubicacion" smooth={true} duration={500}>Ubicación</Link></li>
                 <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer"><Link to="contacto" smooth={true} duration={500}>Contacto</Link></li>
             </ul>
@@ -28,7 +28,7 @@ function Header() {
                 <li className="list-none w-full text-center hover:bg-sky-400 hover:text-white transition-all cursor-pointer"><Link to="inicio" smooth={true} duration={500}>Inicio</Link></li>
                 <li className="list-none w-full text-center hover:bg-sky-400 hover:text-white transition-all cursor-pointer"><Link to="detalles" smooth={true} duration={500}>Detalles</Link></li>
                 <li className="list-none w-full text-center hover:bg-sky-400 hover:text-white transition-all cursor-pointer"><Link to="caracteristicas" smooth={true} duration={500}>Características</Link></li>
-                <li className="list-none w-full text-center hover:bg-sky-400 hover:text-white transition-all cursor-pointer">Formas de <Link to="formas-de-pago" smooth={true} duration={500}>pago</Link></li>
+                <li className="list-none w-full text-center hover:bg-sky-400 hover:text-white transition-all cursor-pointer"><Link to="formas-de-pago" smooth={true} duration={500}>Formas de pago</Link></li>
                 <li className="list-none w-full text-center hover:bg-sky-400 hover:text-white transition-all cursor-pointer"><Link to="ubicacion" smooth={true} duration={500}>Ubicación</Link></li>
                 <li className="list-none w-full text-center hover:bg-sky-400 hover:text-white transition-all cursor-pointer pb-6"><Link to="contacto" smooth={true} duration={500}>Contacto</Link></li>
             </div>
