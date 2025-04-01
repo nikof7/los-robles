@@ -27,7 +27,7 @@ const Contact = () => {
 
             {/* Contenedor de la imagen */}
             <div className="flex justify-center items-center">
-                <img src="/src/assets/logo_af.png" alt="Logo de la inmobiliaria" className="h-16" />
+                <img src="logo_af.png" alt="Logo de la inmobiliaria" className="h-16" />
             </div>
             </div>
         </div>
