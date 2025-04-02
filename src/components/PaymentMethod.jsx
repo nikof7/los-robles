@@ -16,7 +16,7 @@ const PaymentMethod = () => {
             </div>
                 <p className="pt-6">Consulta los distintos planes en la siguiente tabla <span className="text-sm">(U$S: dólares americanos)</span>.</p>
             <div className="p-6">
-                <ZoomableImage src="/table.png" alt="Tabla" />
+                <ZoomableImage src="/table.jpeg" alt="Tabla" />
             </div>
         </div>
     );
