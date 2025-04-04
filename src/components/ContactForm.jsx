@@ -1,6 +1,6 @@
 export default function ContactForm() {
   return (
-    <form action="https://formsubmit.co/wjuice7@gmail.com" method="POST" className="max-w-md mx-auto mt-6 space-y-4 relative z-50">
+    <form action="https://formsubmit.co/94f2b8d618d0e78fd3c75ace353cf0bd " method="POST" className="max-w-md mx-auto mt-6 space-y-4 relative z-50">
       <input
         type="text"
         name="nombre"
